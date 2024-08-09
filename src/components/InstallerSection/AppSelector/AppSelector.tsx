@@ -35,9 +35,13 @@ export default function ({applications, onGenerate}:params) {
       };
 
     return (
-        <form className='pb-6'>
+        <form className='pb-6 flex'>
             
-            <div className='pb-8 border-b-2 border-neutral-700 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6'>
+            <nav className='absolute left-0 top-12 p-4 w-52 border-r-2 border-neutral-700 h-full'>
+                <button className='px-4 py-2 mt-6 w-full border-2 bg-orange-500 border-orange-500 hover:bg-orange-600 rounded-xl transition-all duration-75' type="button" onClick={handleSubmit}>Generate Installer</button>
+            </nav>
+
+            <div className='ml-52 pb-8 border-b-2 border-neutral-700 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6'>
             {
                 Object.entries(applications).map(([id, app]) => (
                     <div key={id}>
@@ -51,8 +55,6 @@ export default function ({applications, onGenerate}:params) {
                 ))
             }
             </div>
-
-            <button className='px-4 py-2 mt-6 border-2 bg-orange-500 border-orange-500 hover:bg-orange-600 rounded-xl transition-all duration-75' type="button" onClick={handleSubmit}>Generate Installer</button>
         </form>
     )
 }

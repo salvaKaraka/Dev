@@ -2,7 +2,7 @@ import Github from "../Icons/Github";
 
  export default function Header() {
     return (
-        <header className="border-b-2 border-neutral-700 py-2 px-4  flex items-center justify-between">
+        <header className="border-b-2 border-neutral-700 px-4 h-12 flex items-center justify-between">
                 <div className="flex items-end space-x-1">
                     <p className="text-orange-400 text-xl border border-orange-400 py-1 px-2" >tdt</p>
                     <div className="text-start">
