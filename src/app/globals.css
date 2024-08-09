@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.disable-transitions * {
-  transition: none !important; /*Disable transitions on toggleTheme to prevent flashes*/
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -45,20 +40,20 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(65, 68, 77, 1);
+  background: #2e2e2d;
 }
 
 /*Handle*/
 ::-webkit-scrollbar-thumb {
-  background: #d56a00;
+  background: #585857;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e07000;
+  background: #4c4b4a;
 }
 
 /* Handle on click */
 ::-webkit-scrollbar-thumb:active {
-  background: #ba5d00;
+  background: #434241;
 }

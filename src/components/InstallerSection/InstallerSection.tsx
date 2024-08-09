@@ -24,11 +24,11 @@ export default function InstallerSection() {
     }
 
     return (
-    <section>
+    <section className="p-4 mt-10 mx-auto">
       <AppSelector applications={applications} onGenerate={getInstallerUrl} />
       {
         installerUrl && (
-          <a href={installerUrl} download="installer.bat">
+          <a className='px-4 py-2 mt-6 border-2 border-orange-500 text-orange-500 hover:border-orange-600 hover:text-orange-600 rounded-xl transition-all duration-75' href={installerUrl} download="installer.bat">
             Download Installer
         </a>
         )

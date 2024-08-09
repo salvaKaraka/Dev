@@ -1,25 +1,25 @@
 {
         "7zip":{
             "name":"7-zip",
-            "logo":"/images/logos/7zip.png",
+            "logo":"/images/logos/7zip.svg",
             "url":"https://www.7-zip.org/a/7z1900-x64.exe",
             "silentOptions":"/S"
         },
         "chrome":{
             "name":"Google Chrome",
-            "logo":"/images/logos/chrome.png",
+            "logo":"/images/logos/chrome.svg",
             "url":"https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B1A3A3A3D-3D3D-3D3D-3D3D-3D3D3D3D3D3D%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Ddefaultbrowser/chrome/install/ChromeStandaloneSetup64.exe",
             "silentOptions":"/silent /install"
         },
         "firefox":{
             "name":"Firefox",
-            "logo":"/images/logos/firefox.png",
+            "logo":"/images/logos/firefox.svg",
             "url":"https://download.mozilla.org/?product=firefox-latest-ssl&os=win&lang=en-US",
             "silentOptions":"/S"
         },
         "vscode":{
             "name":"Visual Studio Code",
-            "logo":"/images/logos/vscode.png",
+            "logo":"/images/logos/vscode.svg",
             "url":"https://az764295.vo.msecnd.net/stable/2b9aebd5354a3629c3aba0a5f5df49f43d6689f8/VSCodeUserSetup-x64-1.41.1.exe",
             "silentOptions":"/silent"
         }
